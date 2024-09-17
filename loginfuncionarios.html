@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style3.css" />
+    <title>Login UVA FIT</title>
+    <link rel="icon" type="image/x-icon" href="circulo.png" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div>
+          <p class="uva">uva</p>
+          <p class="fit">fit</p>
+          <div class="circulo"></div>
+        </div>
+      </a>
+      <p>Login</p>
+    </header>
+    <main>
+      <section class="login">
+        <div class="container">
+          <div class="botoesform">
+            <div class="botaocolor"></div>
+            <a href="login.html"><button>Aluno</button></a>
+            <button>Funcionário</button>
+          </div>
+
+          <div class="input-principal">
+            <form action="">
+              <span>Matrícula</span>
+              <input
+                class="botao-input"
+                type="text"
+                name="Matrícula"
+                id="Matrícula"
+                placeholder="Digite sua Matrícula"
+                pattern="[0-9]*"
+                required
+              />
+              <span>Senha</span>
+              <input
+                class="botao-input"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Digite sua senha"
+                required
+              />
+              <div>
+                <input
+                  type="checkbox"
+                  name="lembrarsenha"
+                  id="lembrarsenha"
+                  checked
+                />
+                <span>Lembrar Senha</span>
+              </div>
+              <button class="botao-enviar">Entrar</button>
+              <a href="">Esqueceu a senha?</a>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

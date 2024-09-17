@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UVA FIT - Academias</title>
+    <link rel="icon" type="image/x-icon" href="circulo.png" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div class="logo">
+          <p class="uva">uva</p>
+          <p class="fit">fit</p>
+          <div class="circulo"></div>
+        </div>
+      </a>
+      <div>
+        <ul class="lista">
+          <a href="login.html" target="_blank">
+            <li>Login</li>
+          </a>
+          <a href="academias.html" target="_blank">
+            <li>Matrícula</li>
+          </a>
+          <a href="academias.html">
+            <li>Academias</li>
+          </a>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="academias">
+        <div class="academias-container">
+          <h1>Confira nossas academias.</h1>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58780.66171874015!2d-43.31018881351905!3d-22.95790984611234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e57963eedf3%3A0xaf52199fd71ffebb!2sUniversidade%20Veiga%20de%20Almeida!5e0!3m2!1spt-BR!2sbr!4v1726369067428!5m2!1spt-BR!2sbr"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="botao-pesquisa">
+        <div class="botao">
+          <input
+            type="text"
+            placeholder="Digite a unidade"
+            id="campo-pesquisa"
+          />
+          <button onclick="pesquisar()">
+            <img src="pesquisa-de-lupa.png" alt="" />
+          </button>
+        </div>
+      </section>
+
+      <section class="resultados-pesquisa" id="resultados-pesquisa">
+        <div class="item-resultado">
+          <img src="uvafit.png" alt="" />
+          <h2>Campus Barra</h2>
+          <div class="endereco-meta">
+            <b>Endereço: </b>Avenida Gen. Felicíssimo Cardoso, 500 - Barra da
+            Tijuca, Rio de Janeiro - RJ <br />
+            <b>Contato:</b> 21 2574-8888
+          </div>
+          <div class="ancora">
+            <a
+              href="https://www.google.com/maps/place/Universidade+Veiga+de+Almeida/@-23.0041755,-43.3527952,17z/data=!3m1!4b1!4m6!3m5!1s0x9bdbb6b4952ef9:0x2d1be8fbaa54abce!8m2!3d-23.0041755!4d-43.3527952!16s%2Fg%2F11h_cytd74?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              >Ver no mapa.</a
+            >
+            <img src="google-maps.png" alt="" />
+          </div>
+          <a href="planos.html"
+            ><button class="botao-enviar">Ver Planos</button></a
+          >
+        </div>
+
+        <div class="item-resultado">
+          <img src="uvafit.png" alt="" />
+          <h2>Campus Cabo Frio</h2>
+          <div class="endereco-meta">
+            <b>Endereço: </b>Estrada Perynas, S/N - Cabo Frio - RJ<br />
+            <b>Contato:</b> 0800 024 6172
+          </div>
+          <div class="ancora">
+            <a
+              href="https://www.google.com/maps/place/Universidade+Veiga+de+Almeida/@-22.885482,-42.062678,15z/data=!4m5!3m4!1s0x971adcb98e1c35:0x186194e8625ea324!8m2!3d-22.885482!4d-42.062678?shorturl=1"
+              target="_blank"
+              >Ver no mapa.</a
+            >
+            <img src="google-maps.png" alt="" />
+          </div>
+          <a href="planos.html"
+            ><button class="botao-enviar">Ver Planos</button></a
+          >
+        </div>
+
+        <div class="item-resultado">
+          <img src="uvafit.png" alt="" />
+          <h2>Campus Botafogo</h2>
+          <div class="endereco-meta">
+            <b>Endereço: </b>Rua Dezenove de Fevereiro, 172 - Botafogo, Rio de
+            Janeiro - RJ<br />
+            <b>Contato:</b> 21 2574-8888
+          </div>
+          <div class="ancora">
+            <a
+              href="https://www.google.com/maps/place/Universidade+Veiga+de+Almeida/@-22.9543876,-43.1848536,19z/data=!4m5!3m4!1s0x997fe4dae3b6eb:0xbba16877b23acc38!8m2!3d-22.9545236!4d-43.1851831?shorturl=1"
+              target="_blank"
+              >Ver no mapa.</a
+            >
+            <img src="google-maps.png" alt="" />
+          </div>
+          <a href="planos.html"
+            ><button class="botao-enviar">Ver Planos</button></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <img src="uvafitbranco.png" alt="" />
+      </div>
+      <div class="redes-sociais">
+        <h3>Redes Sociais</h3>
+        <div class="imagens-logos">
+          <a href="https://www.youtube.com/@veigadealmeida" target="_blank"
+            ><img src="youtube.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/uva_oficial/" target="_blank"
+            ><img src="instagram.png" alt=""
+          /></a>
+          <a
+            href="https://www.facebook.com/veigadealmeida/?locale=pt_BR"
+            target="_blank"
+            ><img src="facebook.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="direitos">
+        <span> &#169;</span> Todos os direitos reservados de UVA FIT
+      </div>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UVA FIT - Pagamento</title>
+    <link rel="icon" type="image/x-icon" href="circulo.png" />
+    <link rel="stylesheet" href="style4.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div>
+          <p class="uva">uva</p>
+          <p class="fit">fit</p>
+          <div class="circulo"></div>
+        </div>
+      </a>
+      <p>Pagamento</p>
+    </header>
+
+    <main>
+      <section class="container-pagamentos">
+        <div class="bloco">
+          <div class="dados-pessoais">
+            <form action="">
+              <label>Nome do proprietário do cartão</label>
+              <input
+                class="botao-input"
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Digite seu nome completo"
+              />
+              <label for="">Número do cartão</label>
+              <input
+                class="botao-input"
+                type="text"
+                name="nome"
+                pattern="[0-9]*"
+                id="nome"
+                placeholder="Digite o número do cartão"
+              />
+              <label for="">CPF</label>
+              <input
+                class="botao-input"
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Digite seu CPF"
+                pattern="[0-9]*"
+              />
+              <label for="">Data de Vencimento do cartão</label>
+              <input
+                class="botao-input"
+                type="text"
+                name=""
+                id=""
+                placeholder="Digite a data de vencimento"
+                pattern="[0-9]*"
+                required
+              />
+              <label for="">CVV</label>
+              <input
+                class="botao-input"
+                type="text"
+                name=""
+                id=""
+                placeholder="Digite o CVV do cartão"
+                pattern="[0-9]*"
+                required
+              />
+            </form>
+            <img src="pagamentos.png" alt="" />
+          </div>
+          <div class="pagamento">
+            <span>Plano Mensal</span>
+            <div class="caixa-planos">
+              <p class="p1">A PARTIR DE</p>
+              <p class="p2">R$ 0,00*</p>
+              <p class="p3">no 1º mês, depois</p>
+              <p class="p3">R$ 139,90/mês</p>
+              <p class="p4">12 meses de fidelidade</p>
+            </div>
+            <a href="login.html"
+              ><button class="botao-concluir">Concluir Matrícula</button></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <img src="uvafitbranco.png" alt="" />
+      </div>
+      <div class="redes-sociais">
+        <h3>Redes Sociais</h3>
+        <div class="imagens-logos">
+          <a href="https://www.youtube.com/@veigadealmeida" target="_blank"
+            ><img src="youtube.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/uva_oficial/" target="_blank"
+            ><img src="instagram.png" alt=""
+          /></a>
+          <a
+            href="https://www.facebook.com/veigadealmeida/?locale=pt_BR"
+            target="_blank"
+            ><img src="facebook.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="direitos">
+        <span> &#169;</span> Todos os direitos reservados de UVA FIT
+      </div>
+    </footer>
+  </body>
+</html>
